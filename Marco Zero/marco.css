@@ -1,0 +1,57 @@
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    background-color: orangered;
+    margin: none;
+    justify-content: center;
+    text-decoration-color: aquamarine; 
+}
+.rodapé{
+    display: flex;
+    align-items: center;
+    background-color: orangered;
+    margin: 0;
+    justify-content: center;
+    text-decoration-color: aquamarine; 
+}
+
+.links{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    
+}
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+.texto{
+       font-size: 20px;
+       font-family: 'Courier New', Courier, monospace;
+       align-self: center;
+       text-align: center;
+}
+
+.hist{
+    align-content: center;
+    margin: 20px;
+}
+
+.img{
+    height: 400px; 
+    width: 600px;
+    margin: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px
+    }
+
+
+
+.container{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: right; 
+    width: 100%;
+    align-self: right;
+    }
